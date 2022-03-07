@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, rgb(17, 66, 131), rgb(18, 159, 224));
+    text-align: center;
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-size: 6rem;
+    color: white
+}
+
+p {
+    font-size: 2.5rem;
+    color: black
+}
+
+img{
+    width: 150px;
+}
+
+button {
+    margin-top: 16px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#roll, #hold {
+    visibility: hidden;
+}
+
+.active-player {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(2, 52, 160);
+    border-radius: 10px;
+    padding: 7px;
+}
